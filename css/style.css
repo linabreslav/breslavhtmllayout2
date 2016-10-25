@@ -1,0 +1,224 @@
+/*first part of the wordpress site*/
+
+
+.toplightblue {
+  background-color: #118bc0;
+  width: 32%;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.login {
+  float: right;
+  position: relative;
+  font-size: 15px;
+  background-color: #006ea1;
+  padding: 16px;
+  margin: 0;
+}
+
+
+.toplightblue img {
+  clear: both;
+  height: 35px;
+  width: 35px;
+  padding-right: 10px;
+  padding-top: 4px;
+}
+
+
+.toplightblue .floatleft {
+  float:left;
+  position: relative;
+  left: 20px;
+}
+
+.container {
+  clear: both;
+  width: 32%;
+  height: 1500px ;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-image: url(../images/crowd.jpg);
+}
+
+
+.container p {
+  margin: 0px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0px 80px 0px 80px;
+
+}
+
+#large{
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 150px 50px 50px 50px;
+}
+
+.boxundertext {
+  background-color: #118bc0;
+  width: 170px;
+  border: 0;
+  outline: 10px black solid;
+  outline-color: rgba(0,0,0,0.3);
+  margin: 0 auto;
+  margin-top: 50px;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 15px
+}
+
+.smallwhitebox {
+  margin: 0 auto;
+  margin-top: 400px;
+  margin-bottom: 70px;
+  font-size: 70px;
+}
+
+.threewhiteboxes {
+  color: white;
+  padding-left: 50px;
+  position: relative;
+  top: 2px;
+}
+
+.threewhiteboxes img {
+  padding: 20px;
+  position: relative;
+  top: 70px;
+
+}
+
+.threewhiteboxes p {
+  text-align: left;
+}
+
+
+.threewhiteboxes .largetext {
+  padding-bottom: 4px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.lightbluebox1 {
+  background-color: #e8f0f5;
+  width: 32%;
+}
+
+.lightbluebox1 p {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+
+.container2 {
+  background-color: #d1d3d7;
+  width: 32%;
+  height: 1400px;
+  margin: 0;
+}
+
+.whitebox {
+  background-color: white;
+  height: 200px;
+  width: 80%;
+  position: relative;
+  top: 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.whitebox div p {
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 50px;
+}
+
+.wp {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.greybox {
+  position: relative;
+  left: 45%;
+  top: 25px;
+  height: 60px;
+  width: 60px;
+  background-color: #d1d3d7;
+  border-radius: 100px;
+}
+
+.whitebox div img {
+  position: relative;
+  left: 20%;
+  top: 10px;
+  height: 35px;
+  width: 35px;
+}
+
+.lightbluebox2 {
+  background-color: #e8f0f5;
+  height: 200px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.lightbluebox2 p {
+  font-size: 23px;
+  padding-top: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.brightbluebox {
+  background-color: #118bc0;
+  position: relative;
+  top: 50px;
+  height: 50px;
+  width: 200px;
+  margin: 0 auto;
+  padding: 0px;
+  color: white;
+}
+
+.brightbluebox p {
+  padding: 3px;
+  padding-top: 10px;
+}
+
+.blackbox {
+  background-color: black;
+  height: 70px;
+  padding: 0px;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.blackbox img {
+  position: relative: 60px;
+  height: 25px;
+}
