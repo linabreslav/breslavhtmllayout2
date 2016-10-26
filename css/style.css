@@ -1,7 +1,6 @@
 /*first part of the wordpress site*/
 
-
-.toplightblue {
+nav {
   background-color: #118bc0;
   width: 32%;
   height: 50px;
@@ -12,17 +11,7 @@
   font-family: sans-serif;
 }
 
-.login {
-  float: right;
-  position: relative;
-  font-size: 15px;
-  background-color: #006ea1;
-  padding: 16px;
-  margin: 0;
-}
-
-
-.toplightblue img {
+nav img {
   clear: both;
   height: 35px;
   width: 35px;
@@ -30,11 +19,19 @@
   padding-top: 4px;
 }
 
-
-.toplightblue .floatleft {
+nav .topsitename {
   float:left;
   position: relative;
   left: 20px;
+}
+
+.loginbutton {
+  float: right;
+  position: relative;
+  font-size: 15px;
+  background-color: #006ea1;
+  padding: 16px;
+  margin: 0;
 }
 
 .container {
@@ -64,7 +61,7 @@
   padding: 150px 50px 50px 50px;
 }
 
-.boxundertext {
+.buttontocreatesite {
   background-color: #118bc0;
   width: 170px;
   border: 0;
@@ -79,44 +76,44 @@
   padding: 15px
 }
 
-.smallwhitebox {
+.downarrow {
   margin: 0 auto;
   margin-top: 400px;
   margin-bottom: 70px;
   font-size: 70px;
 }
 
-.threewhiteboxes {
+.adverts {
   color: white;
   padding-left: 50px;
   position: relative;
   top: 2px;
 }
 
-.threewhiteboxes img {
+.adverts img {
   padding: 20px;
   position: relative;
   top: 70px;
 
 }
 
-.threewhiteboxes p {
+.adverts p {
   text-align: left;
 }
 
 
-.threewhiteboxes .largetext {
+.adverts .largetext {
   padding-bottom: 4px;
   text-align: left;
   font-size: 20px;
 }
 
-.lightbluebox1 {
+.blurbsection {
   background-color: #e8f0f5;
   width: 32%;
 }
 
-.lightbluebox1 p {
+.blurbsection p {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 30px;
@@ -136,7 +133,7 @@
   margin: 0;
 }
 
-.whitebox {
+.middlecontent {
   background-color: white;
   height: 200px;
   width: 80%;
@@ -146,20 +143,20 @@
   margin-bottom: 20px;
 }
 
-.whitebox div p {
+.middlecontent div p {
   text-align: center;
   margin: 0;
   position: relative;
   top: 50px;
 }
 
-.wp {
+.contentheader {
   font-size: 20px;
   text-align: center;
   padding-bottom: 10px;
 }
 
-.greybox {
+.decorativeimage {
   position: relative;
   left: 45%;
   top: 25px;
@@ -169,7 +166,7 @@
   border-radius: 100px;
 }
 
-.whitebox div img {
+.middlecontent div img {
   position: relative;
   left: 20%;
   top: 10px;
@@ -177,21 +174,21 @@
   width: 35px;
 }
 
-.lightbluebox2 {
+.blurbcontinued {
   background-color: #e8f0f5;
   height: 200px;
   margin: 0px;
   padding: 0px;
 }
 
-.lightbluebox2 p {
+.blurbcontinued p {
   font-size: 23px;
   padding-top: 20px;
   font-weight: lighter;
   text-align: center;
 }
 
-.brightbluebox {
+.secondbuttoncreatesite {
   background-color: #118bc0;
   position: relative;
   top: 50px;
@@ -202,12 +199,12 @@
   color: white;
 }
 
-.brightbluebox p {
+.secondbuttoncreatesite p {
   padding: 3px;
   padding-top: 10px;
 }
 
-.blackbox {
+footer {
   background-color: black;
   height: 70px;
   padding: 0px;
@@ -218,7 +215,8 @@
   text-align: center;
 }
 
-.blackbox img {
+footer p{
   position: relative: 60px;
   height: 25px;
+  display: inline;
 }
